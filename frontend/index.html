@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PashuSuchak AI - Animal Breed Identification</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>PashuSuchak AI</h1>
+        <p>Animal Breed Identification System</p>
+    </header>
+    
+    <main>
+        <section id="uploadSection">
+            <h2>Upload Image</h2>
+            <div class="upload-container">
+                <input type="file" id="imageUpload" accept="image/*">
+                <label for="imageUpload">Choose an image</label>
+                <div class="preview-container">
+                    <img id="imagePreview" alt="Image Preview" style="display: none;">
+                </div>
+                <button id="analyzeButton" disabled>Analyze Image</button>
+            </div>
+            <div class="test-sprite-container">
+                <button id="testSpriteButton">MCP Test Sprites</button>
+            </div>
+        </section>
+        
+        <section id="resultsSection">
+            <h2>Analysis Results</h2>
+            <div class="results-container">
+                <div class="result-item">
+                    <h3>Breed:</h3>
+                    <p id="breedResult">-</p>
+                </div>
+                <div class="result-item">
+                    <h3>Confidence:</h3>
+                    <p id="confidenceResult">-</p>
+                </div>
+                <div class="result-item">
+                    <h3>Description:</h3>
+                    <p id="descriptionResult">-</p>
+                </div>
+                <div class="result-item">
+                    <h3>Sprite:</h3>
+                    <img id="spriteImage" alt="Animal Sprite" style="display: none;">
+                </div>
+            </div>
+        </section>
+        
+        <section id="testSpritesSection">
+            <h2>MCP Test Sprites</h2>
+            <div class="sprites-container">
+                <!-- Test sprites will be added here dynamically -->
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 PashuSuchak AI - Animal Breed Identification System</p>
+    </footer>
+    
+    <script src="app.js"></script>
+</body>
+</html>
