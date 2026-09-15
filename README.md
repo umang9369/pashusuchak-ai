@@ -1,4 +1,4 @@
-# 🐄 PashuSuchak AI
+#  PashuSuchak AI
 
 An AI-powered cattle breed detection and livestock assistance platform designed to help farmers identify cattle breeds from images and receive breed-specific insights, health recommendations, feeding guidance, and farmer-friendly information.
 
